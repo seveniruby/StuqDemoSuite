@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="appium.TestUicatalogSuite" time="301.891" tests="4" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/seveniruby/projects/stuq/demo2/target/test-classes:/Users/seveniruby/projects/stuq/demo2/target/classes:/Users/seveniruby/.m2/repository/io/rest-assured/rest-assured/3.0.3/rest-assured-3.0.3.jar:/Users/seveniruby/.m2/repository/org/codehaus/groovy/groovy/2.4.9/groovy-2.4.9.jar:/Users/seveniruby/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.9/groovy-xml-2.4.9.jar:/Users/seveniruby/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/seveniruby/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/seveniruby/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/seveniruby/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/seveniruby/.m2/repository/org/apache/httpcomponents/httpmime/4.5.1/httpmime-4.5.1.jar:/Users/seveniruby/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/seveniruby/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/seveniruby/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/seveniruby/.m2/repository/io/rest-assured/json-path/3.0.3/json-path-3.0.3.jar:/Users/seveniruby/.m2/repository/org/codehaus/groovy/groovy-json/2.4.9/groovy-json-2.4.9.jar:/Users/seveniruby/.m2/repository/io/rest-assured/rest-assured-common/3.0.3/rest-assured-common-3.0.3.jar:/Users/seveniruby/.m2/repository/io/rest-assured/xml-path/3.0.3/xml-path-3.0.3.jar:/Users/seveniruby/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/seveniruby/.m2/repository/io/appium/java-client/5.0.4/java-client-5.0.4.jar:/Users/seveniruby/.m2/repository/org/seleniumhq/selenium/selenium-java/3.6.0/selenium-java-3.6.0.jar:/Users/seveniruby/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.6.0/selenium-chrome-driver-3.6.0.jar:/Users/seveniruby/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.6.0/selenium-edge-driver-3.6.0.jar:/Users/seveniruby/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.6.0/selenium-firefox-driver-3.6.0.jar:/Users/seveniruby/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.6.0/selenium-ie-driver-3.6.0.jar:/Users/seveniruby/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.6.0/selenium-opera-driver-3.6.0.jar:/Users/seveniruby/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.6.0/selenium-remote-driver-3.6.0.jar:/Users/seveniruby/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.6.0/selenium-safari-driver-3.6.0.jar:/Users/seveniruby/.m2/repository/net/bytebuddy/byte-buddy/1.7.5/byte-buddy-1.7.5.jar:/Users/seveniruby/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/seveniruby/.m2/repository/com/google/guava/guava/23.0/guava-23.0.jar:/Users/seveniruby/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/seveniruby/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar:/Users/seveniruby/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/seveniruby/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/seveniruby/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/Users/seveniruby/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/Users/seveniruby/.m2/repository/org/seleniumhq/selenium/selenium-support/3.6.0/selenium-support-3.6.0.jar:/Users/seveniruby/.m2/repository/org/seleniumhq/selenium/selenium-api/3.6.0/selenium-api-3.6.0.jar:/Users/seveniruby/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/seveniruby/.m2/repository/cglib/cglib/3.2.5/cglib-3.2.5.jar:/Users/seveniruby/.m2/repository/org/ow2/asm/asm/5.2/asm-5.2.jar:/Users/seveniruby/.m2/repository/org/apache/ant/ant/1.9.6/ant-1.9.6.jar:/Users/seveniruby/.m2/repository/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar:/Users/seveniruby/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/seveniruby/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/seveniruby/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/seveniruby/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/seveniruby/.m2/repository/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6.jar:/Users/seveniruby/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Users/seveniruby/.m2/repository/org/springframework/spring-context/5.0.0.RELEASE/spring-context-5.0.0.RELEASE.jar:/Users/seveniruby/.m2/repository/org/springframework/spring-aop/5.0.0.RELEASE/spring-aop-5.0.0.RELEASE.jar:/Users/seveniruby/.m2/repository/org/springframework/spring-beans/5.0.0.RELEASE/spring-beans-5.0.0.RELEASE.jar:/Users/seveniruby/.m2/repository/org/springframework/spring-core/5.0.0.RELEASE/spring-core-5.0.0.RELEASE.jar:/Users/seveniruby/.m2/repository/org/springframework/spring-jcl/5.0.0.RELEASE/spring-jcl-5.0.0.RELEASE.jar:/Users/seveniruby/.m2/repository/org/springframework/spring-expression/5.0.0.RELEASE/spring-expression-5.0.0.RELEASE.jar:/Users/seveniruby/.m2/repository/org/aspectj/aspectjweaver/1.8.11/aspectjweaver-1.8.11.jar:/Users/seveniruby/.m2/repository/org/openpnp/opencv/3.2.0-1/opencv-3.2.0-1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/seveniruby/projects/stuq/demo2/target/surefire/surefirebooter4047323087132654760.jar /Users/seveniruby/projects/stuq/demo2/target/surefire 2017-11-26T10-04-38_120-jvmRun1 surefire1950181043091734914tmp surefire_08859178769529552042tmp"/>
+    <property name="test" value="TestUicatalogSuite"/>
+    <property name="surefire.test.class.path" value="/Users/seveniruby/projects/stuq/demo2/target/test-classes:/Users/seveniruby/projects/stuq/demo2/target/classes:/Users/seveniruby/.m2/repository/io/rest-assured/rest-assured/3.0.3/rest-assured-3.0.3.jar:/Users/seveniruby/.m2/repository/org/codehaus/groovy/groovy/2.4.9/groovy-2.4.9.jar:/Users/seveniruby/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.9/groovy-xml-2.4.9.jar:/Users/seveniruby/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/seveniruby/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/seveniruby/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/seveniruby/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/seveniruby/.m2/repository/org/apache/httpcomponents/httpmime/4.5.1/httpmime-4.5.1.jar:/Users/seveniruby/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/seveniruby/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/seveniruby/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/seveniruby/.m2/repository/io/rest-assured/json-path/3.0.3/json-path-3.0.3.jar:/Users/seveniruby/.m2/repository/org/codehaus/groovy/groovy-json/2.4.9/groovy-json-2.4.9.jar:/Users/seveniruby/.m2/repository/io/rest-assured/rest-assured-common/3.0.3/rest-assured-common-3.0.3.jar:/Users/seveniruby/.m2/repository/io/rest-assured/xml-path/3.0.3/xml-path-3.0.3.jar:/Users/seveniruby/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/seveniruby/.m2/repository/io/appium/java-client/5.0.4/java-client-5.0.4.jar:/Users/seveniruby/.m2/repository/org/seleniumhq/selenium/selenium-java/3.6.0/selenium-java-3.6.0.jar:/Users/seveniruby/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.6.0/selenium-chrome-driver-3.6.0.jar:/Users/seveniruby/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.6.0/selenium-edge-driver-3.6.0.jar:/Users/seveniruby/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.6.0/selenium-firefox-driver-3.6.0.jar:/Users/seveniruby/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.6.0/selenium-ie-driver-3.6.0.jar:/Users/seveniruby/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.6.0/selenium-opera-driver-3.6.0.jar:/Users/seveniruby/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.6.0/selenium-remote-driver-3.6.0.jar:/Users/seveniruby/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.6.0/selenium-safari-driver-3.6.0.jar:/Users/seveniruby/.m2/repository/net/bytebuddy/byte-buddy/1.7.5/byte-buddy-1.7.5.jar:/Users/seveniruby/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/seveniruby/.m2/repository/com/google/guava/guava/23.0/guava-23.0.jar:/Users/seveniruby/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/seveniruby/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar:/Users/seveniruby/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/seveniruby/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/seveniruby/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/Users/seveniruby/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/Users/seveniruby/.m2/repository/org/seleniumhq/selenium/selenium-support/3.6.0/selenium-support-3.6.0.jar:/Users/seveniruby/.m2/repository/org/seleniumhq/selenium/selenium-api/3.6.0/selenium-api-3.6.0.jar:/Users/seveniruby/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/seveniruby/.m2/repository/cglib/cglib/3.2.5/cglib-3.2.5.jar:/Users/seveniruby/.m2/repository/org/ow2/asm/asm/5.2/asm-5.2.jar:/Users/seveniruby/.m2/repository/org/apache/ant/ant/1.9.6/ant-1.9.6.jar:/Users/seveniruby/.m2/repository/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar:/Users/seveniruby/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/seveniruby/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/seveniruby/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/seveniruby/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/seveniruby/.m2/repository/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6.jar:/Users/seveniruby/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Users/seveniruby/.m2/repository/org/springframework/spring-context/5.0.0.RELEASE/spring-context-5.0.0.RELEASE.jar:/Users/seveniruby/.m2/repository/org/springframework/spring-aop/5.0.0.RELEASE/spring-aop-5.0.0.RELEASE.jar:/Users/seveniruby/.m2/repository/org/springframework/spring-beans/5.0.0.RELEASE/spring-beans-5.0.0.RELEASE.jar:/Users/seveniruby/.m2/repository/org/springframework/spring-core/5.0.0.RELEASE/spring-core-5.0.0.RELEASE.jar:/Users/seveniruby/.m2/repository/org/springframework/spring-jcl/5.0.0.RELEASE/spring-jcl-5.0.0.RELEASE.jar:/Users/seveniruby/.m2/repository/org/springframework/spring-expression/5.0.0.RELEASE/spring-expression-5.0.0.RELEASE.jar:/Users/seveniruby/.m2/repository/org/aspectj/aspectjweaver/1.8.11/aspectjweaver-1.8.11.jar:/Users/seveniruby/.m2/repository/org/openpnp/opencv/3.2.0-1/opencv-3.2.0-1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/seveniruby"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/seveniruby/projects/stuq/demo2"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/seveniruby/projects/stuq/demo2/target/surefire/surefirebooter4047323087132654760.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_51-b16"/>
+    <property name="user.name" value="seveniruby"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.13.1"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/seveniruby/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/mk/xf15bt7n07b5p0z1g3n0c1300000gq/T/"/>
+    <property name="java.version" value="1.8.0_51"/>
+    <property name="user.dir" value="/Users/seveniruby/projects/stuq/demo2"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="user.language.format" value="en"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/seveniruby/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.51-b03"/>
+    <property name="java.ext.dirs" value="/Users/seveniruby/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="CancelTest" classname="appium.TestUicatalogActionSheets" time="21.996"/>
+  <testcase name="OKayTest" classname="appium.TestUicatalogActionSheets" time="17.705"/>
+  <testcase name="CancelTest" classname="appium.TestUicatalogAlertViews" time="158.07">
+    <error message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;&#10;System info: host: &apos;MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:9a:ae98:e7ec:486%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.1&apos;, java.version: &apos;1.8.0_51&apos;&#10;Driver info: io.appium.java_client.ios.IOSDriver&#10;Capabilities [{networkConnectionEnabled=false, bundleId=com.example.apple-samplecode.UICatalog, databaseEnabled=false, deviceName=iPhone 7, platform=MAC, platformVersion=10.2, webStorageEnabled=false, locationContextEnabled=false, automationName=XCUITest, browserName=, takesScreenshot=true, javascriptEnabled=true, udid=5B6FEB13-4807-49CD-98B3-5244F381E07C, platformName=MAC}]&#10;Session ID: 20d88ff9-ac3b-45a4-92ee-fcd4d1130eae&#10;*** Element info: {Using=xpath, value=//*[contains(@label, &apos;CancelNOTFOUND&apos;)]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'MacBook-Pro.local', ip: 'fe80:0:0:0:9a:ae98:e7ec:486%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_51'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{networkConnectionEnabled=false, bundleId=com.example.apple-samplecode.UICatalog, databaseEnabled=false, deviceName=iPhone 7, platform=MAC, platformVersion=10.2, webStorageEnabled=false, locationContextEnabled=false, automationName=XCUITest, browserName=, takesScreenshot=true, javascriptEnabled=true, udid=5B6FEB13-4807-49CD-98B3-5244F381E07C, platformName=MAC}]
+Session ID: 20d88ff9-ac3b-45a4-92ee-fcd4d1130eae
+*** Element info: {Using=xpath, value=//*[contains(@label, 'CancelNOTFOUND')]}
+	at appium.TestUicatalogAlertViews.CancelTest(TestUicatalogAlertViews.java:37)
+</error>
+    <system-out><![CDATA[AfterClass driver.quit
+not found //*[contains(@label, 'CancelNOTFOUND')]
+XCUIElementTypeAlert
+A Short Title Is Best
+XCUIElementTypeOther
+null
+XCUIElementTypeOther
+null
+XCUIElementTypeOther
+null
+XCUIElementTypeOther
+null
+XCUIElementTypeOther
+null
+XCUIElementTypeOther
+null
+XCUIElementTypeOther
+null
+XCUIElementTypeOther
+null
+XCUIElementTypeOther
+null
+XCUIElementTypeOther
+null
+XCUIElementTypeStaticText
+A Short Title Is Best
+XCUIElementTypeStaticText
+A message should be a short, complete sentence.
+XCUIElementTypeOther
+null
+XCUIElementTypeOther
+null
+XCUIElementTypeOther
+null
+XCUIElementTypeOther
+null
+XCUIElementTypeOther
+null
+XCUIElementTypeOther
+null
+XCUIElementTypeOther
+null
+XCUIElementTypeButton
+Cancel
+XCUIElementTypeOther
+null
+XCUIElementTypeOther
+null
+XCUIElementTypeOther
+null
+XCUIElementTypeOther
+null
+XCUIElementTypeButton
+OK
+]]></system-out>
+    <system-err><![CDATA[Nov 26, 2017 10:06:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="OKayTest" classname="appium.TestUicatalogAlertViews" time="41.443"/>
+</testsuite>

@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: appium.TestUicatalogSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 301.891 s <<< FAILURE! - in appium.TestUicatalogSuite
+CancelTest(appium.TestUicatalogAlertViews)  Time elapsed: 158.07 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'MacBook-Pro.local', ip: 'fe80:0:0:0:9a:ae98:e7ec:486%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_51'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{networkConnectionEnabled=false, bundleId=com.example.apple-samplecode.UICatalog, databaseEnabled=false, deviceName=iPhone 7, platform=MAC, platformVersion=10.2, webStorageEnabled=false, locationContextEnabled=false, automationName=XCUITest, browserName=, takesScreenshot=true, javascriptEnabled=true, udid=5B6FEB13-4807-49CD-98B3-5244F381E07C, platformName=MAC}]
+Session ID: 20d88ff9-ac3b-45a4-92ee-fcd4d1130eae
+*** Element info: {Using=xpath, value=//*[contains(@label, 'CancelNOTFOUND')]}
+	at appium.TestUicatalogAlertViews.CancelTest(TestUicatalogAlertViews.java:37)
+
