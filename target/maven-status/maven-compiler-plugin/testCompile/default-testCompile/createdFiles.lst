@@ -4,7 +4,10 @@ appium/TestUicatalogSuite.class
 unit/TestDemo3.class
 appium/TestUicatalogActionSheets.class
 restassured/Demo.class
+restassured/DemoDataDriver.class
 appium/TestUicatalogSuite$1.class
 TestUicatalog.class
 appium/BaseClass.class
+appium/Util/Node.class
 unit/TestFixturesExample.class
+appium/TestMobike.class

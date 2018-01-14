@@ -8,6 +8,7 @@ import io.restassured.response.Response;
 import org.apache.http.client.params.ClientPNames;
 import org.apache.http.params.CoreConnectionPNames;
 import org.junit.*;
+import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
@@ -29,6 +30,7 @@ public class Demo {
         System.out.println("beforeClass");
     }
     @Test
+    @Category(Baidu.class)
     public void baidu(){
         given().log().all().proxy("172.16.20.40", 7777)
             .queryParam("wd", "mp3")
@@ -55,6 +57,7 @@ public class Demo {
 
 
     @Test
+    @Category(Baidu.class)
     public void baiduExtract(){
         Response response=
             given().proxy("172.16.20.40", 7777)
@@ -113,6 +116,7 @@ public class Demo {
     }
 
     @Test
+    @Category(Baidu.class)
     public void testResponse2(){
         given().log().all().proxy("172.16.20.40", 7777)
                 .queryParam("wd", "mp3")
