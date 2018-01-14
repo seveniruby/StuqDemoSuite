@@ -1,10 +1,10 @@
-restassured/Demo.class
 unit/TestParams.class
 appium/TestUicatalogAlertViews.class
 appium/TestUicatalogSuite.class
 unit/TestDemo3.class
+appium/TestUicatalogActionSheets.class
+restassured/Demo.class
 appium/TestUicatalogSuite$1.class
 TestUicatalog.class
 appium/BaseClass.class
 unit/TestFixturesExample.class
-appium/TestUicatalogActionSheets.class
